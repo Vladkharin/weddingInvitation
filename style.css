@@ -23,17 +23,35 @@ body {
 header {
   text-align: center;
   margin-bottom: 20px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
 }
 
 .top-leaf,
 .bottom-leaf {
   width: 80px;
-  display: none;
+}
+
+.top-leaf {
+  top: 0;
+  left: 0;
+  position: absolute;
+  rotate: 180deg;
+}
+
+.bottom-leaf {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  rotate: 270deg;
 }
 
 header img {
   display: block;
-  margin: 10px auto;
 }
 
 h1 {
@@ -49,8 +67,8 @@ h1 > span {
   position: absolute;
   opacity: 0.5;
   font-size: 100px;
-  left: 15%;
-  top: -20px;
+  left: -45px;
+  top: -25px;
   color: #ddded8;
 }
 .date {

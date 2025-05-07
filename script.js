@@ -3,13 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const params = Object.fromEntries(urlParams);
   const names = document.querySelector("#names");
 
-  function formatNames(arr) {
-    if (arr.length === 0) return "";
-    if (arr.length === 1) return arr[0];
+  const arr = ["Светлана и Владислав"];
 
-    const last = arr.pop();
-    return arr.join(", ") + " и " + last;
-  }
-
-  names.textContent = formatNames(params.names.split(", "));
+  names.textContent = arr[params.family];
 });
