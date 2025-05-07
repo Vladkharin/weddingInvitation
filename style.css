@@ -1,0 +1,192 @@
+/* Базовые стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Prata", "Great Vibes", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+.invitation {
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-leaf,
+.bottom-leaf {
+  width: 80px;
+  display: none;
+}
+
+header img {
+  display: block;
+  margin: 10px auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #6b8e23;
+  margin-bottom: 10px;
+  font-family: "Great Vibes";
+  position: relative;
+}
+
+h1 > span {
+  font-family: sans-serif;
+  position: absolute;
+  opacity: 0.5;
+  font-size: 100px;
+  left: 15%;
+  top: -20px;
+  color: #ddded8;
+}
+.date {
+  font-size: 1rem;
+  color: #6b8e23;
+  margin-bottom: 20px;
+
+  font-family: "Prata";
+}
+
+.greeting h2 {
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #6b8e23;
+  font-family: "Great Vibes";
+  line-height: 0.5;
+}
+
+.greeting p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  font-family: "Prata";
+}
+
+.greeting p span {
+  font-family: "Great Vibes";
+  font-size: 24px;
+  color: #677f4e;
+}
+
+hr {
+  color: #6b8e23;
+  margin-bottom: 45px;
+}
+
+.details h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: "Prata";
+}
+
+.details p {
+  font-family: "Great Vibes";
+  text-align: center;
+  font-size: 24px;
+}
+
+.details p span {
+  font-family: "Prata";
+  text-align: center;
+}
+
+.event-date {
+  font-size: 1.5rem;
+  color: #6b8e23;
+  margin-bottom: 15px;
+  font-family: "Great Vibes";
+  text-align: center;
+}
+
+.timing {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timing h2 {
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 10px;
+  font-family: "Great Vibes";
+  font-size: 32px;
+}
+
+.timing ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.timing li {
+  font-size: 1.2rem;
+  color: #6b8e23;
+  margin-bottom: 10px;
+}
+
+.timing li span {
+  color: #000000;
+  font-family: "Great Vibes";
+  font-size: 32px;
+}
+
+.important-notes h2 {
+  font-size: 23px;
+  color: #000000;
+  margin-bottom: 10px;
+  font-family: "Great Vibes";
+}
+
+.important-notes p {
+  font-size: 24px;
+  line-height: 1.6;
+  font-family: "Great Vibes";
+}
+
+.accept-button {
+  display: block;
+  margin: 20px auto;
+  background-color: #f2f2f2;
+  color: #6b8e23;
+  border: none;
+  border-radius: 8px;
+  font-size: 32px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 262px;
+  height: 67px;
+  font-family: "Great Vibes";
+}
+
+.accept-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Медиазапросы */
+
+.container {
+  width: 320px;
+  margin: 0 auto;
+  padding: 10px;
+}
