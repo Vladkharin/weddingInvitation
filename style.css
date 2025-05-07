@@ -33,7 +33,8 @@ header {
 
 .top-leaf,
 .bottom-leaf {
-  width: 80px;
+  width: 142px;
+  height: 162px;
 }
 
 .top-leaf {
@@ -47,7 +48,6 @@ header {
   bottom: 0;
   right: 0;
   position: absolute;
-  rotate: 270deg;
 }
 
 header img {
