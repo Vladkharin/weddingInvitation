@@ -116,7 +116,7 @@ h1 > span {
 
 .greeting p span {
   font-family: "Great Vibes";
-  font-size: calc(var(--main-coefficient) + 24px);
+  font-size: calc(var(--main-coefficient) + 36px);
   color: #677f4e;
 }
 
@@ -145,9 +145,10 @@ hr {
 
 .details img {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -75px;
+  left: 35px;
   z-index: -1;
+  scale: 1.3;
 }
 
 .details h3 {
@@ -157,7 +158,7 @@ hr {
   font-family: "Prata";
 }
 
-.details p {
+.details .p {
   font-family: "Great Vibes";
   text-align: center;
   font-size: calc(var(--main-coefficient) + 24px);
@@ -169,7 +170,7 @@ hr {
 }
 
 .event-date {
-  font-size: calc(var(--main-coefficient) + 20px);
+  font-size: calc(var(--main-coefficient) + 36px);
   color: #6b8e23;
   margin-bottom: 15px;
   font-family: "Great Vibes";
