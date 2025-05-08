@@ -167,6 +167,8 @@ hr {
 .details p span {
   font-family: "Prata";
   text-align: center;
+
+  color: #6b8e23;
 }
 
 .event-date {
@@ -189,7 +191,7 @@ hr {
 }
 
 .timing_tile {
-  background-color: #f2f2f2;
+  background-color: #ddded8;
   padding: 15px;
   border-radius: 8px;
   margin: 20px 0;
@@ -255,7 +257,7 @@ hr {
 .accept-button {
   display: block;
   margin: 20px auto;
-  background-color: #f2f2f2;
+  background-color: #ddded8;
   border: none;
   border-radius: 8px;
   font-size: calc(var(--main-coefficient) + 32px);
