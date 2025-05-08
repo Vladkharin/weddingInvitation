@@ -3,7 +3,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const params = Object.fromEntries(urlParams);
   const names = document.querySelector("#names");
 
-  const arr = ["Светлана и Владислав"];
+  const arr = [
+    { id: 0, names: "Лидия и Владимир" },
+    {
+      id: 1,
+      names: "Елизавета",
+    },
+  ];
 
   names.textContent = arr[params.family];
 });
