@@ -86,6 +86,7 @@ h1 > span {
 
 .greeting {
   margin-top: 120px;
+  padding: 0 10px;
 }
 .greeting h2 {
   font-size: 24px;
@@ -117,12 +118,26 @@ hr {
 .details {
   margin-top: 30px;
   position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.details_tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
 }
 
 .details img {
   position: absolute;
-  bottom: -130px;
-  left: -20px;
+  bottom: 0;
+  left: 0;
   z-index: -1;
 }
 
@@ -211,6 +226,7 @@ hr {
 
 .important-notes {
   margin-top: 50px;
+  padding: 0 10px;
 }
 
 .important-notes h2 {
