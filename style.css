@@ -10,7 +10,12 @@ body {
   background-color: #f9f9f9;
   color: #333;
   line-height: 1.6;
-  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .invitation {
@@ -117,7 +122,7 @@ hr {
 .details img {
   position: absolute;
   bottom: -130px;
-  left: 0;
+  left: -20px;
   z-index: -1;
 }
 
@@ -148,6 +153,17 @@ hr {
 }
 
 .timing {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  overflow: hidden;
+}
+
+.timing_tile {
   background-color: #f2f2f2;
   padding: 15px;
   border-radius: 8px;
@@ -157,12 +173,13 @@ hr {
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-  position: relative;
+  width: 298px;
+  height: 250px;
 }
 
-.timing > img {
+.timing_tile > img {
   position: absolute;
-  bottom: -200px;
+  bottom: -25px;
   right: -10px;
   rotate: 10deg;
 }
@@ -193,7 +210,7 @@ hr {
 }
 
 .important-notes {
-  margin-top: 170px;
+  margin-top: 50px;
 }
 
 .important-notes h2 {
