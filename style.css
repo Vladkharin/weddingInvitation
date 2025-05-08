@@ -79,6 +79,9 @@ h1 > span {
   font-family: "Prata";
 }
 
+.greeting {
+  margin-top: 120px;
+}
 .greeting h2 {
   font-size: 24px;
   color: #000000;
