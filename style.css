@@ -32,7 +32,7 @@ main {
 header {
   text-align: center;
   margin-bottom: 20px;
-  height: 500px;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,9 +78,8 @@ h1 > span {
   position: absolute;
   opacity: 0.5;
   font-size: calc(var(--main-coefficient) + 183px);
-  left: -45px;
-  top: -40px;
-
+  left: -50px;
+  top: -50px;
   color: #ddded8;
   z-index: -1;
 }
@@ -104,6 +103,7 @@ h1 > span {
   border-bottom: 2px solid #6b8e23;
   font-family: "Great Vibes";
   line-height: 0.5;
+  font-weight: 400;
 }
 
 .greeting p {
