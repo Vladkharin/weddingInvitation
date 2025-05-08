@@ -71,6 +71,7 @@ h1 {
   position: relative;
   line-height: 0.9;
   text-align: left;
+  margin-top: 60px;
 }
 
 h1 > span {
