@@ -97,7 +97,7 @@ h1 > span {
   padding: 0 10px;
 }
 .greeting h2 {
-  font-size: calc(var(--main-coefficient) + 24px);
+  font-size: calc(var(--main-coefficient) + 32px);
   color: #000000;
   text-align: center;
   margin-bottom: 10px;
